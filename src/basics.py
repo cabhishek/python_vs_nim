@@ -2,7 +2,6 @@ from collections import namedtuple
 from typing import Tuple
 from enum import Enum
 
-
 def main():
     list = [1, 2, 3, 4, 5]
     dict = {"one": 1, "two": 2}
@@ -26,7 +25,6 @@ def main():
     class Color(Enum):
         RED = 1
         GREEN = 2
-
 
 if __name__ == "__main__":
     main()
