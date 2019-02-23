@@ -15,7 +15,7 @@ proc main() =
 
   type
     Point = tuple[x,y: int]
-  const p: Point = (x:11, y:22) # mutable
+  const p: Point = (x:11, y:22) # immutable
 
   type
     Person = object
