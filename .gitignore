@@ -10,3 +10,6 @@ tests/nimbleDir
 temp.nim
 
 .xmark.README.md.html
+
+env3/
+env/
