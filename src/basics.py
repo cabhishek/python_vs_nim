@@ -6,19 +6,19 @@ def main():
     dict = {"one": 1, "two": 2}
     sets = set([2, 3, 4, 2])
     bool = True or False
-    str = "pycaribbean"
-    integer = 1
-    floats = 1.2
+    str = "nim_is_awesome"
+    integer: int = 1
+    floats: float = 1.2
     PI = 3.14
 
     Point = namedtuple('Point', ['x', 'y'])
-    p = Point(11, y=22)
+    p = Point(x=11, y=22)
 
     class Person:
-        def __init__(self, name, age):
-            self.name = name
-            self.age = age
-    person = Person("James", 32)
+        def __init__(self, name: str, age: int):
+            self.name: str = name
+            self.age: str = age
+    person = Person(name="James", age=32)
 
     class Color(Enum):
         RED = 1

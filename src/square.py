@@ -1,16 +1,16 @@
 class Square:
 
-    def __init__(self, a):
-        self.a = a
+    def __init__(self, a: int):
+        self.a: int = a
 
-    def area(self):
+    def area(self) -> int:
         return self.a**2
 
-    def perimeter(self):
+    def perimeter(self) -> int:
         return self.a * 4
 
 def main():
-    square = Square(2)
+    square = Square(a=2)
     print('area: ', square.area())
     print('perimeter: ', square.perimeter())
 

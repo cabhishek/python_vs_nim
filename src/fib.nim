@@ -5,4 +5,4 @@ proc fib(n: int): int =
     return fib(n - 2) + fib(n - 1)
 
 when isMainModule:
-  echo fib(5)
+  echo fib(30)

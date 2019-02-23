@@ -7,7 +7,7 @@ proc main() =
     dict = {"one": 1, "two": 2}.toTable()
     sets = [2, 3, 4, 2].toSet()
     boolean = true or false
-    str = "pycaribbean"
+    str = "python_is_awesome"
     integer: int = 1
     floats: float = 1.2
 
@@ -25,8 +25,8 @@ proc main() =
 
   type
     Color = enum
-      RED=1
-      GREEN=2
+      RED = 1
+      GREEN = 2
 
 when isMainModule:
   main()
